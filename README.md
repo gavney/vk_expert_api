@@ -2,13 +2,10 @@
 
 **vk_experts_api** – Python модуль для автоматизации деятельности в программе [Эксперты ВКонтакте](https://vk.com/vkexperts)
 
-
 Токен следует использовать от VK ME: 
 https://oauth.vk.com/token?grant_type=password&client_id=6146827&client_secret=qVxWRF1CwHERuIrKBnqe&username=логин&password=пароль&v=5.131&2fa_supported=1
 
-
 * [Неофициальная документация](https://www.notion.so/VK-API-Experts-3a12796f3bdf45c4bf500d5005c32a78)
-
 
 ```python
 import vk_experts_api
