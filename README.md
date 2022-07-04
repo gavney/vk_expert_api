@@ -18,11 +18,11 @@ vk = vk_experts_api.Expert(
     token="abcd", category=5)
 
 # Получение поста
-post = vk.getCustom(count=1, start_from=2)
+post = vk.getCustom(count=1, start_from=1)
 
 # Выставление оценки
 vk.setPostVote(post_id=post["items"][0]["post_id"],
-               owner_id=post["items"][0]["post_id"],
+               owner_id=post["items"][0]["source_id"],
                new_vote=-1)
 ```
 
