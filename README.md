@@ -1,5 +1,5 @@
 # vk_expert_api
-____
+
 **vk_experts_api** – Python модуль для автоматизации деятельности в программе [Эксперты ВКонтакте](https://vk.com/vkexperts)
 
 
